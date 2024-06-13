@@ -33,13 +33,13 @@ def fuel_type(self):
         return "Electric charge"
 
     
-my_tesla = ElectricCar("Tesla", "Model S", "85KWh")
+#my_tesla = ElectricCar("Tesla", "Model S", "85KWh")
 # print(my_tesla.brand)
 # print(my_tesla.fuel_type())
 
 safari = Car("Tata", "Safari")
 safariThree = Car("Tata", "Nexon")
 # print(safari.fuel_type())
-print( safari.total_car)
+# print( safari.total_car)
 
 print(Car.total_car)
